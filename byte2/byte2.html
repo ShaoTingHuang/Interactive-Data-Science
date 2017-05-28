@@ -1,0 +1,75 @@
+<html>
+<body <body bgcolor="#E6E6FA">
+
+		<h1 align="center">
+			<font size = "72">
+			Coffee Production
+			</font>
+		</h1>
+
+		<h2 align="center"> Is the data complete?</h2>
+		<h3 align="center"> Row Data Table </h3>
+		<p>
+			This is the raw data which I combined two fusion tables together. So how to analyze the data? </br>
+			First, it is not a complete data because there are missing data in some countries, such as Benin and Equatorial Guinea, and so on. </br>
+		<h3 align="center">
+		    <iframe width="1000" height="600" scrolling="yes" frameborder="no" src="https://fusiontables.google.com/embedviz?viz=GVIZ&amp;t=TABLE&amp;q=select+col0%3E%3E0%2C+col1%3E%3E0%2C+col2%3E%3E0%2C+col3%3E%3E0%2C+col4%3E%3E0%2C+col5%3E%3E0%2C+col6%3E%3E0%2C+col7%3E%3E0%2C+col8%3E%3E0%2C+col9%3E%3E0%2C+col10%3E%3E0%2C+col3%3E%3E1%2C+col4%3E%3E1%2C+col5%3E%3E1%2C+col6%3E%3E1%2C+col7%3E%3E1%2C+col8%3E%3E1+from+1yJiJwJVa_fNwlK5-RoFvXFCW_ftyt7iDp7pcO9dF&amp;containerId=googft-gviz-canvas"></iframe>
+		</h3>
+		</br>
+		</br>
+		<h3 align="center"> Row Data figure </h3>
+		</p> Also, there are only half of data in some countries. How can I address these data? </br>
+			I drawed the data first. As the figure below, there are four to five mainly proudcing countries. The other countries produce very few amount of coffee. </br>
+			So I check the missing data in the table and I found that all of them are not the main production countries.</br>
+			Therefore, I dropped them all. Basically, it is still completed because there is no missing data of main producing countries.</br>
+		</p>
+		<h3 align="center"> <IMG SRC="raw_data_distribution.png"> </h3>
+		</br>
+		</br>
+		<h2 align="center"> Is the data coherent? </h2>
+		<h3 align="center"> Raw data distribution</h3>
+		<p>
+		There are two parts to check the coherence - growing area and main countries which produce large amount of coffee beans. </br>
+		Coffee bean is growing in the tropical area. So I used the map to check the coffee production distribution. As the graph below, the data is coherent all of the countries are distributed in the tropical and subtropical area. </br>
+		</p>
+		<h2 align="center">
+			<iframe width="1000" height="600" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col0%3E%3E0+from+1yJiJwJVa_fNwlK5-RoFvXFCW_ftyt7iDp7pcO9dF&amp;viz=MAP&amp;h=false&amp;lat=11.157430922845812&amp;lng=3.951156249999963&amp;t=1&amp;z=2&amp;l=col0%3E%3E0&amp;y=2&amp;tmplt=2&amp;hml=ONE_COL_LAT_LNG"></iframe>
+			</br>
+			</br>
+		</h2>
+
+		<h3 align="center"> The main producing countries </h3>
+		<p>
+		As the list of countries by coffee production in "International Coffee Association". The top five list countries are Brazil, Vietnam, Colombia, Indonesia,and Ethiopia. </br>
+		So I sorted the data and drawed the main countries to see if it is coherent. The figure is below. After comparing the result, it is completely coherent.
+		</p>
+		<h3 align="center"> <IMG SRC="main_producing_countries.png"> </h3>
+	  </br>
+		</br>
+
+		<h2 align="center"> Is the data correct? </h2>
+		<p> As above, the main producing countries are the same as the research from "International Coffee Association".</br>
+			  Let's see the producing percent of them. The figure is below. </br>
+				As the figure, the main producing countries produce almost 70% amount of coffee in the world.
+		</p>
+
+		<h3 align="center"><IMG SRC="pie_chart.png"></h3>
+
+		<h2 align="center"> Is the data accountable? </h2>
+		<p> The data is from the google fusion table, which is a public resource, everyone can have access to it.</p>
+		</br>
+		</br>
+		<h2 align="center"> Interesting results </h2>
+		<p> I plot the total amount of production every year and found that it increases almost 50% in the past 15 years. </br>
+			  It also increases and decreases in turn every year, which is highly related to the Brazil production.
+		</br>
+		</br>
+		<h3 align="center"><IMG SRC="total_amount.png"></h3>
+		</br>
+		</br>
+		<p> There is also another interesing plot that I created - boxplot. I found that the range of Brazil and Indonesia of production are large.</br>
+				The reason might be influenced by the growing environments.
+		<h2 align="center"><IMG SRC="boxplot.png"></h2>
+
+</body>
+</html>
